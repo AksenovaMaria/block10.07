@@ -1,0 +1,55 @@
+.last-line tr:last-child{
+    background-color: aqua;
+}
+.block-hover:hover{
+    background-color: coral;
+    color: aliceblue;
+}
+.block-form input:focus{
+    background-color: cadetblue;
+}
+.block-form button:hover{
+    background-color: darkkhaki;
+    color: brown;
+}
+.parent{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #ff6600; 
+}
+.child{
+    width: 50px;
+    height: 50px;
+    border: 1px dashed green;
+    background-color: #398ceb;
+}
+.neighbor{
+    width: 300px;
+    height: 150px;
+    border: 2px dashed red;
+}
+
+/* пробую */
+.wrapper > .child{
+    background-color: #bc8f8f;
+}
+
+.wrapper:hover{
+    background-color: #00ff7f.;
+}
+
+
+
+
+/* таблица */
+ul{
+    list-style-type: none;
+}
+
+.item li::before{
+    content: "\2764";
+}
+.item li::after{
+    content: "\2708";
+}
